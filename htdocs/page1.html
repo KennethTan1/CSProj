@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/styling.css">
+    <title>Sampa Events</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kenneth Samuel Tan">
+    <meta name="keywords" content="HTML, Js">
+    <meta name="revised" content="29-10-2020">
+    <link rel="icon" href="icon.png" type="image/gif">
+</head>
+
+<body>  
+    <script>
+        function changeDisplayed(a, b) {
+            var x = document.getElementById(a);       
+            var y = document.getElementById(b);
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            };
+            if (y.style.display === "none") {
+                y.style.display = "block";
+            } else {
+                y.style.display = "none";
+            }
+        };
+    </script>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <div class="subnav">
+            <button class="subnavbtn"><a href="page1.html" style="display: block;">Events <i class="fa fa-caret-down"></i></a></button>
+            <div class="subnav-content">
+                <a href="#Aquaintance">Aquaintance Party</a>
+                <a href="#Christmas">Christmas Party</a> 
+                <a href="#Paskorus">Paskorus</a>            
+                <a href="#Dekada">Sayaw ng Dekada</a>       
+                <a href="#Humfest">Soc Sci Humfest</a>
+                <a href="#ValEd">Val Ed Outreach</a>
+            </div>
+        </div>
+        <!-- make sticky -->
+        <a href="page2.html">People</a>
+        <a href="#Highlights">Highlights</a>
+        <a href="#Upload">Upload</a>
+    </div>
+    <div style="padding: 0 16px">
+        <h1>Sampa '24</h1>
+        <hr>
+        <div>
+            <h2 id="Aquaintance" style="float: left">Aquaintance Party</h2>
+            <button onclick="changeDisplayed('AqPics', 'AqText')" style="float: right">Click Me</button>
+            <!-- replace click me with icon -->
+        </div>
+        <p style="clear: both;" id="AqText"> The Aquaintance party was the first time we all met each other.</p>
+        <div id="AqPics" style="clear: both;">
+            <img src="../images/Aquaintance%20Party/1.JPG" height="200">
+            <!-- make images clickable -->
+            <img src="../images/Aquaintance%20Party/2.JPG" height="200">
+        </div>
+        <hr style="clear: both;">
+        <div>
+            <h2 id="Christmas" style="float: left">Christmas Party</h2>
+            <button onclick="changeDisplayed('ChPics', 'ChText')" style="float: right">Click Me</button>
+        </div>
+        <p style="clear: both;" id="ChText"> It was a party, during Chistmas, a Christmas Party so to speak.</p>
+        <div id="ChPics" style="clear: both;">
+            <img src="../images/Christmas%20Party/1.jpg" height="200">
+            <img src="../images/Christmas%20Party/2.jpg" height="200">
+            <img src="../images/Christmas%20Party/3.jpg" height="200">
+            <img src="../images/Christmas%20Party/4.jpg" height="200">
+        </div>
+        <hr style="clear: both;">
+        <div>
+            <h2 id="Paskorus" style="float: left">Paskorus</h2>
+            <button onclick="changeDisplayed('PaPics', 'PaText')" style="float: right">Click Me</button>
+        </div>
+        <p style="clear: both;" id="PaText">A Christmas themed Music project, the preparation for which taking weeks</p>
+        <div id="PaPics" style="clear: both;">
+            <img src="../images/Paskorus/1.JPG" height="200">
+            <img src="../images/Paskorus/2.JPG" height="200">
+            <img src="../images/Paskorus/3.JPG" height="200">      
+            <img src="../images/Paskorus/4.JPG" height="200">
+        </div>
+        <hr style="clear: both;">
+        <div>
+            <h2 id="Dekada" style="float: left">Sayaw ng Dekada</h2>
+            <button onclick="changeDisplayed('SDPics', 'SDText')" style="float: right">Click Me</button>
+        </div>
+        <p style="clear: both;" id="SDText">A Verifiably Super Time-consuming project where we learned to rock babies.</p>
+        <div id="SDPics" style="clear: both;">
+            <img src="../images/Sayaw%20ng%20Dekada/1.JPG" height="200">
+            <img src="../images/Sayaw%20ng%20Dekada/2.JPG" height="200">
+            <img src="../images/Sayaw%20ng%20Dekada/3.JPG" height="200">      
+        </div>
+        <hr style="clear: both;">
+        <div>
+            <h2 id="Humfest" style="float: left">Social Science Humfest</h2>
+            <button onclick="changeDisplayed('SSPics', 'SSText')" style="float: right">Click Me</button>
+        </div>
+        <p style="clear: both;" id="SSText">Not really a class project but there were some pooled resources so close enough.</p>
+        <div id="SSPics" style="clear: both;">
+            <img src="../images/Soc%20Sci%20Humfest/1.JPG" height="200">      
+        </div>
+        <hr style="clear: both;">
+        <div>
+            <h2 id="ValEd" style="float: left">Values Education Outreach</h2>
+            <button onclick="changeDisplayed('VEPics', 'VEText')" style="float: right">Click Me</button>
+        </div>
+        <p style="clear: both;e" id="VEText">A Val Ed project that happened near the end of the school year.</p>
+        <div id="VEPics" style="clear: both;">
+            <img src="../images/Val%20Ed%20Outreach/1.jpg" height="200">      
+            <img src="../images/Val%20Ed%20Outreach/2.jpg" height="200">
+            <img src="../images/Val%20Ed%20Outreach/3.jpg" height="200">
+            <img src="../images/Val%20Ed%20Outreach/4.jpg" height="200">
+            <img src="../images/Val%20Ed%20Outreach/5.jpg" height="200">
+            <img src="../images/Val%20Ed%20Outreach/6.jpg" height="200">
+            <img src="../images/Val%20Ed%20Outreach/7.jpg" height="200">
+        </div>
+        <hr style="clear: both;">
+    </div>
+</body>
+</html>
