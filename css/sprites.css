@@ -1,0 +1,32 @@
+.sprite-f {
+    background: url('../images/icon.png') no-repeat -182px -91px;
+    width: 37px;
+    height: 33px;
+}
+.sprite-f:hover {
+    background: url('../images/icon.png') no-repeat -182px -17px;
+}
+.sprite-t {
+    background: url('../images/icon.png') no-repeat -296px -91px;
+    width: 37px;
+    height: 33px;
+}
+.sprite-t:hover {
+    background: url('../images/icon.png') no-repeat -290px -17px;
+}
+.sprite-i {
+    background: url('../images/instagram.jpg') no-repeat;
+    width: 39px;
+    height: 36px;
+}
+.sprite-i:hover {
+    background: url('../images/instagram.jpg') no-repeat -38px -38px;
+}
+.sprite-s {
+    background: url('../images/spotify.png') no-repeat;
+    width: 39px;
+    height: 36px;
+}
+.sprite-s:hover {
+    background: url('../images/spotify.png') no-repeat -40px;
+}
